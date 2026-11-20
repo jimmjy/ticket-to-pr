@@ -1,0 +1,5 @@
+{
+  "id": "issue-005",
+  "title": "isPalindrome should ignore case and punctuation",
+  "body": "`isPalindrome(\"A man, a plan, a canal: Panama\")` returns `false`. It should return `true`. Ignore letter case and any character that is not a letter or number."
+}

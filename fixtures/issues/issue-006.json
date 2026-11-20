@@ -1,0 +1,5 @@
+{
+  "id": "issue-006",
+  "title": "Add a capitalizeWords(str) helper",
+  "body": "Add `capitalizeWords(str)` to `src/strings.js` and export it. It uppercases the first letter of every word and leaves the rest of each word unchanged. Words are separated by spaces. Example: `capitalizeWords(\"hello big world\")` returns `\"Hello Big World\"`."
+}

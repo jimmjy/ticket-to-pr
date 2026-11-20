@@ -1,0 +1,5 @@
+{
+  "id": "issue-001",
+  "title": "slugify should handle punctuation and extra spaces",
+  "body": "`slugify(\"Hello,  World!\")` currently returns `\"hello,--world!\"`. It should return `\"hello-world\"`.\n\nRules: lowercase; remove anything that is not a letter, number, space or dash; collapse runs of spaces or dashes into a single dash; no leading or trailing dashes."
+}

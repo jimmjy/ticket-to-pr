@@ -1,0 +1,26 @@
+[
+  {
+    "issueId": "issue-001",
+    "hiddenTest": "issue-001.test.js"
+  },
+  {
+    "issueId": "issue-002",
+    "hiddenTest": "issue-002.test.js"
+  },
+  {
+    "issueId": "issue-003",
+    "hiddenTest": "issue-003.test.js"
+  },
+  {
+    "issueId": "issue-004",
+    "hiddenTest": "issue-004.test.js"
+  },
+  {
+    "issueId": "issue-005",
+    "hiddenTest": "issue-005.test.js"
+  },
+  {
+    "issueId": "issue-006",
+    "hiddenTest": "issue-006.test.js"
+  }
+]
