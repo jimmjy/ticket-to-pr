@@ -6,7 +6,8 @@
     "pipeline": "tsx src/run.ts",
     "evals": "tsx evals/run-evals.ts",
     "compare": "tsx evals/compare.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +26,8 @@
     "@langfuse/tracing": "^6.1.1",
     "@opentelemetry/api": "^1.9.1",
     "@opentelemetry/sdk-trace-node": "^2.12.1",
-    "dotenv": "^18.0.10"
+    "dotenv": "^18.0.10",
+    "zod": "^4.6.7"
   },
   "type": "module"
 }

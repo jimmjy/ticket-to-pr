@@ -1,0 +1,5 @@
+{
+  "id": "issue-002",
+  "title": "Add a truncate(str, max) helper",
+  "body": "Add `truncate(str, max)` to `src/strings.js` and export it.\n\nIf `str.length <= max`, return `str` unchanged. Otherwise return the first `max - 3` characters followed by `\"...\"`, so the result is exactly `max` characters long. Example: `truncate(\"Hello world\", 8)` returns `\"Hello...\"`."
+}

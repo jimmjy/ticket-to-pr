@@ -1,0 +1,5 @@
+{
+  "id": "issue-003",
+  "title": "sum([]) crashes",
+  "body": "`sum([])` throws `TypeError: Reduce of empty array with no initial value`. It should return `0`."
+}

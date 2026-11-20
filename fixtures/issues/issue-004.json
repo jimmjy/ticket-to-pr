@@ -1,0 +1,5 @@
+{
+  "id": "issue-004",
+  "title": "Add a chunk(arr, size) helper",
+  "body": "Add `chunk(arr, size)` to `src/arrays.js` and export it. It splits an array into groups of `size`; the last group may be smaller. Example: `chunk([1,2,3,4,5], 2)` returns `[[1,2],[3,4],[5]]`. If `size` is less than 1, throw a `RangeError`."
+}
